@@ -31,6 +31,14 @@ php artisan key:generate
 
 ```bash
 php artisan migrate
+php artisan migrate --env=testing (digunakan untuk migrate databaset unit testing)
+```
+
+Pada file phpunit.xml sesuaikan koneksi:
+
+```bash
+<env name="DB_CONNECTION" value="mysql"/>
+<env name="DB_DATABASE" value="assessment-test"/>
 ```
 
 ### 4) Running the App

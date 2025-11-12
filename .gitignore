@@ -20,7 +20,7 @@
 /storage/*.key
 /storage/pail
 /vendor
-/uploads/category/
+uploads/category/
 Homestead.json
 Homestead.yaml
 Thumbs.db

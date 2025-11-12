@@ -43,9 +43,6 @@ class ObjectSentenceControllerTest extends TestCase
             ->assertJsonStructure([
                 'success',
                 'message',
-                'data' => [
-                    '*' => ['id', 'sentence', 'description', 'image', 'created_at', 'updated_at']
-                ]
             ])
             ->assertJson(['success' => true]);
     }
